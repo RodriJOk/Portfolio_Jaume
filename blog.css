@@ -26,3 +26,32 @@
 .header__icon a{
     padding: 0px 5px;
 }
+
+.main__container{
+    width: 80%;
+    grid-template-rows: 200px 200px 200px;   
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+}
+
+.main__container__card{
+    width: 100px;
+
+}
+
+.main__container__card{
+    display: inline;
+}
+
+.image{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.title{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #343A40;
+}
