@@ -1,5 +1,6 @@
 @import "./button.css";
 @import "./header.css";
+@import "./button-icon.css";
 
 :root{
     --fontBase: font-family: 'Poppins', sans-serif;
@@ -23,9 +24,4 @@ body{
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--green);
-}
-
-.header{
-    display: contents;
-    justify-content: space-between;
 }
