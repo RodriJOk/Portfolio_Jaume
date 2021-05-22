@@ -2,7 +2,8 @@
 @import "./header.css";
 @import "./button-icon.css";
 @import "./hero.css";
-
+@import "./wrapper.css";
+@import "./menu.css";
 
 :root{
     --fontBase: font-family: 'Poppins', sans-serif;
