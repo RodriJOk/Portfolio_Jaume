@@ -4,6 +4,7 @@
 @import "./hero.css";
 @import "./wrapper.css";
 @import "./menu.css";
+@import "./testimonial.css";
 
 :root{
     --fontBase: font-family: 'Poppins', sans-serif;
