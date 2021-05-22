@@ -1,0 +1,40 @@
+.hero{
+    padding-block-start: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-social{
+    padding-block-end: 24px;
+}
+
+.hero-image{
+    text-align: center;
+}
+
+.hero-description__welcome{
+    height: 117px;
+}
+
+.hero-description__title{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    display: block;
+}
+
+.hero-description__name{
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+}
+
+.hero-description__profesion{
+    font-weight: 400;
+    font-size: 16px;
+}
