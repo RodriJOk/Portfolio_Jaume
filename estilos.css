@@ -21,6 +21,7 @@
     --headline4: bold 34px/55px var(--fontBase);
     --headline4secondary: 34px/55px var(--fontSecondary);
     --headline5: bold 24px/38px var(--fontBase);
+    --headline5secondary: 24px/38px var(--fontBase);
     --body1: 16px/25px var(--fontBase);
     --body1secondary: bold 24px/38px var(--fontSecondary);
     --body2: 14px/22px var(--fontBase);

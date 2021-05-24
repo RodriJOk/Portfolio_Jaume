@@ -36,8 +36,6 @@
 
 .hero-description__profesion{
     font: var(--body1);
-    /* font-weight: 400;
-    font-size: 16px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -45,11 +43,11 @@
         display: flex;
         gap: 32px;
     }
+
     .hero-image{
         order: 2;
         text-align: end;
         flex: 1;
-
     }
 
     .hero-description{
