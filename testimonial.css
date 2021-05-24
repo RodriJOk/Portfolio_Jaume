@@ -1,21 +1,16 @@
 .testimonial{
     height: 481px;
-    font-family: 'Poppins', sans-serif;
     color: var(--purple);
 }
 
 .testimonial-description{
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 38px;
+    font: var(--headline4secondary);
     text-align: center;
 }
 
 .testimonial-subdescription{
-    font-size: 24px;
-    font-weight: 700;
+    font: var(--headline5);
     text-align: center;
-    line-height: 38px;
 }
 
 .testimonial img{

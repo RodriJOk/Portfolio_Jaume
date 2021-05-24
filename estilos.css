@@ -8,13 +8,17 @@
 @import "./proyectos.css";
 @import "./social.css";
 @import "./footer.css";
+@import "./form.css";
+@import "./title.css";
 
 :root{
-    --fontBase: font-family: 'Poppins', sans-serif;
+    --fontBase: 'Poppins', sans-serif;
+    --fontSecondary: 'Oxygen', sans-serif;
     --headline1: bold 95px/153.71px var(--fontBase);
     --headline2: bold 59px/95px var(--fontBase);
     --headline3: bold 48px/77px var(--fontBase);
     --headline4: bold 34px/55px var(--fontBase);
+    --headline4secondary: 34px/55px var(--fontSecondary);
     --headline5: bold 24px/38px var(--fontBase);
     --body1: 16px/25px var(--fontBase);
     --body2: 14px/22px var(--fontBase);
