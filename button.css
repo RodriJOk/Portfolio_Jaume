@@ -1,7 +1,7 @@
 .button{
     background: var(--purple);
     color: var(--white);
-    /* font: var(--button); */
+    font: var(--button); 
     padding-inline-start: 24px;
     padding-inline-end: 24px;
     padding-block-start: 24px;

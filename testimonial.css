@@ -1,6 +1,6 @@
 .testimonial{
-    height: 481px;
     color: var(--purple);
+    padding-bottom: 200px;
 }
 
 .testimonial-description{

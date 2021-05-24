@@ -10,6 +10,7 @@
 @import "./footer.css";
 @import "./form.css";
 @import "./title.css";
+@import "./reseña.css";
 
 :root{
     --fontBase: 'Poppins', sans-serif;
@@ -21,6 +22,7 @@
     --headline4secondary: 34px/55px var(--fontSecondary);
     --headline5: bold 24px/38px var(--fontBase);
     --body1: 16px/25px var(--fontBase);
+    --body1secondary: bold 24px/38px var(--fontSecondary);
     --body2: 14px/22px var(--fontBase);
     --button: bold 14px/22px var(--fontBase);
     --caption: 12px/19px var(--fontBase);

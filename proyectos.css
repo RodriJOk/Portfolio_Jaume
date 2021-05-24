@@ -1,7 +1,10 @@
 .proyectos{
-    border: 1px solid red;
     padding-block-start: 40px;
     padding-block-end: 40px;
+}
+
+.proyectos-image img{
+    max-inline-size: 100%;
 }
 
 .proyectos-descripcion{
@@ -10,8 +13,15 @@
     gap: 16px;
 }
 
-.proyectos-image img{
-    max-inline-size: 100%;
+.proyectos-descripcion p{
+    font: var(--body1);
+}
+
+.proyectos-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 7px;
 }
 
 @media screen and (min-width: 768px){
@@ -25,11 +35,25 @@
     .proyectos-descripcion{
         flex: 1;
     }
+    .proyectos-descripcion p{
+        font: var(--body1);
+    }
     .proyectos:nth-child(odd) .proyectos-image{
-        border: 10px solid blue;
         order: 2;
         flex: 1;
         text-align: center; 
+    }
+
+    .proyectos-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 5px;
+    }
+
+    .marvol{
+        display: flex;
+        flex-direction: row-reverse;
     }
 
 }
