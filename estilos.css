@@ -10,7 +10,7 @@
 @import "./footer.css";
 @import "./form.css";
 @import "./title.css";
-@import "./reseña.css";
+@import "./review.css";
 
 :root{
     --fontBase: 'Poppins', sans-serif;

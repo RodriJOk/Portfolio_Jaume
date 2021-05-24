@@ -1,4 +1,4 @@
-.reseña-leonidas{
+.review{
     padding: 24px;
     height: auto;    
     display: flex;
@@ -12,43 +12,43 @@
     margin-bottom: 80px;
 }
 
-.reseña-leonidas img{
+.review img{
     border-radius: 50%;
     margin: 0 auto;
     width: 64px;
     height: 64px;
 }
 
-.reseña-text{
+.review-text{
     font: var(--body1secondary);
     color: var(--purple);
     text-align: start;
 }
 
-.reseña-contact{
+.review-contact{
     font: var(--caption);
     color: var(--purple);
     text-align: start;
 }
 
 @media screen and (min-width: 768px) {
-    .reseña-leonidas{
+    .review{
         border: 1px solid var(--white);
         padding: 80px;
     }
 
-    .reseña-leonidas img{
+    .review img{
         width: 80px;
         height: 80px;
     }
 
-    .reseña-text{
+    .review-text{
         font: var(--headline4secondary);
         color: var(--purple);
         text-align: center;
         font-weight: 700;
     }
-    .reseña-contact{
+    .review-contact{
         font: var(--headline5);
         text-align: center;
     }
